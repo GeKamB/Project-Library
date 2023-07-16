@@ -28,9 +28,7 @@ input {
     animation: wiggle 4s linear infinite;  
       
 }
-.new-book-btn:hover {
-    
-}
+
 @keyframes wiggle {
     0%, 7% {
       transform: rotateZ(0);
@@ -59,7 +57,7 @@ input {
     background-color: rgba(100, 196, 4, 0.658);
     padding: .5rem;
 }
-//.topbttns:hover {
+#submit:hover {
     transform: translate(0, 5%);
 }
 
