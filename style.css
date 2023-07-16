@@ -57,7 +57,7 @@ input {
     background-color: rgba(100, 196, 4, 0.658);
     padding: .5rem;
 }
-#submit:hover {
+.topbttns:hover {
     transform: translate(0, 5%);
 }
 
