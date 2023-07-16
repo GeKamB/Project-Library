@@ -1,0 +1,63 @@
+<!dOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Virtual Library</h1>
+        <button class="new-book-btn topbttns">New Book</button>
+    </header>
+    <main>
+        
+        
+        
+        <div id='myModal' class="modal">
+            
+            <form class="form" action method>
+                <span class="close">&times;</span>
+                <div class="field">
+                    <legend>Add a New Book to Library.</legend>
+                </div>
+                <fieldset>
+                    <div class="field">
+                        <label for="book-title">
+                            <span class="label">Book Title:</span>
+                            <input type="text" id="book-title" name="book-title" required>
+                        </label>
+                    </div>
+                    <div class="field"><label for="author">
+                        <span class="label">Author:</span>
+                        <input type="text" id="author" name="author" required>
+                    </label></div>
+                    <div class="field">
+                        <label for="pages">
+                            <span class="label">Pages:</span>
+                            <input type="text" id="pages" name="pages" value="" required>
+                        </label>
+                    </div>
+                    <div class="field">
+                        <label for="read">
+                            <span class="label">Read the book ?</span>
+                            <select name="read-the-book" id="read-the-book">
+                                <option value="read">yes</option>
+                                <option value="no">no</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="field">
+                        <label for="submit" class="label "><input type="submit" class="topbttns" value="Submit" id="submit" name="submit"  ></label>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="library"></div>
+    </main>
+
+</body>
+</html>
